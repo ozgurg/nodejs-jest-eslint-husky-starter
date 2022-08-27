@@ -10,8 +10,8 @@
         "url": "// TODO: Change me"
     },
     "scripts": {
-        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose",
-        "test:coverage": "npm run test -- --coverage",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --passWithNoTests",
+        "test:coverage": "npm run test -- --coverage --passWithNoTests",
         "lint:fix": "npm run lint -- --fix",
         "lint": "eslint --ext .js .",
         "lint-staged": "lint-staged",
