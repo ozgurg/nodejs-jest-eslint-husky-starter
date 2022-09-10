@@ -1,3 +1,3 @@
-import { helloWorld } from "./src/hello-world.js";
+import { sayHello } from "./src/say-hello.js";
 
-export default helloWorld;
+export default sayHello;
